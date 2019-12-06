@@ -19,7 +19,7 @@ Installation Python LED-Driver:
 * for Python 3: `sudo pip3 install rpi_ws281x`
 
 Installation Benchmark-Tool:
-`sudo apt install sysbench`
+* `sudo apt install sysbench`
 
 Documentation:
 
