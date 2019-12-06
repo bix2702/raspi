@@ -22,18 +22,12 @@ Installation Benchmark-Tool:
 * `sudo apt install sysbench`
 
 Documentation:
-
-https://www.raspberrypi.org/documentation/usage/gpio/python/README.md
-
-https://gpiozero.readthedocs.io/
-
-https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage
-
-https://github.com/rpi-ws281x/rpi-ws281x-python
-
-https://dordnung.de/raspberrypi-ledstrip/ws2812
-
-https://github.com/jgarff/rpi_ws281x/blob/master/python/neopixel.py
+* https://www.raspberrypi.org/documentation/usage/gpio/python/README.md
+* https://gpiozero.readthedocs.io/
+* https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage
+* https://github.com/rpi-ws281x/rpi-ws281x-python
+* https://dordnung.de/raspberrypi-ledstrip/ws2812
+* https://github.com/jgarff/rpi_ws281x/blob/master/python/neopixel.py
 
 Node-RED Flow
 -------------
