@@ -1,4 +1,4 @@
-# Raspbery Pi Workshop
+# Raspberry Pi Workshop
 
 Python Script
 -------------
