@@ -40,10 +40,12 @@ Prerequisites:
   * By Debian packet manager:
     * Node-RED: `sudo apt install nodered`
     * Node-RED packet manager: `sudo apt install npm`
-* Install LED-Node (from Terminal):
-  * Install Adafruit driver: `curl -sS get.pimoroni.com/unicornhat | bash`
+* Recommended additional Add-ons & Nodes (needed for example flow):
+  * Dashboard: `npm install node-red-dashboard`
+  * CPU-Usage: `npm install node-red-contrib-cpu` (needed for example flow)
+  * Install Adafruit package: `curl -sS get.pimoroni.com/unicornhat | bash`
   * Install LED-Node: `npm install node-red-node-pi-neopixel` 
-  * *Alternative: Use "Manage Palette" ("Palette verwalten") in NODE-Red for installing LED-Node*
+  * *Alternative: Use "Manage Palette" ("Palette verwalten") in NODE-Red for installing Nodes*
 
 Control service (from Terminal):
 * Start service by boot: `sudo systemctl enable nodered.service`
