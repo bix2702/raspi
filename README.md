@@ -35,14 +35,15 @@ Node-RED Flow
 The File flow.txt contains the Test Flow for Node-RED for the Raspi Workshop
 
 Prerequisites:
-* Install NODE-Red: 
+* Install NODE-Red (from  Terminal): 
   * By Script (recommended): `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
   * By Debian packet manager:
     * Node-RED: `sudo apt install nodered`
     * Node-RED packet manager: `sudo apt install npm`
-* Install LED-Node:
-  * Install Adafruit driver in Terminal: `curl -sS get.pimoroni.com/unicornhat | bash`
-  * Install LED-Node in Terminal: `npm install node-red-node-pi-neopixel` or in NODE-Red via "Manage Palette" ("Palette verwalten")
+* Install LED-Node (from Terminal):
+  * Install Adafruit driver: `curl -sS get.pimoroni.com/unicornhat | bash`
+  * Install LED-Node: `npm install node-red-node-pi-neopixel` 
+  * *Alternative: Use "Manage Palette" ("Palette verwalten") in NODE-Red for installing LED-Node*
 
 Control service by Terminal:
 * Start service by boot: `sudo systemctl enable nodered.service`
