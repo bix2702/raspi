@@ -38,7 +38,12 @@ Prerequisites:
 Install NODE-Red: 
 * By Script (recommended): `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
 * By Debian packet manager:
-  * `sudo apt install nodered`
-  * `sudo apt install npm`
+  * Node-RED: `sudo apt install nodered`
+  * Node-RED packet manager: `sudo apt install npm`
 
-
+Control service by Terminal:
+* Start service by boot: `sudo systemctl enable nodered.service`
+* Start service: `node-red-start`
+* Stop service: `node-red-stop`
+* Restart service: `node-red-restart`
+* Show logs: `node-red-log`
