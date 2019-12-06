@@ -11,10 +11,10 @@ Install gpiozero with Python pip installer:
 * for Python 3: sudo pip3 install gpiozero
 
 Install gpiozero with Debian package manager: 
-* for Python2: sudo apt install python-gpiozero
-* for Python3: sudo apt install python3-gpiozero
+* for Python2: 'sudo apt install python-gpiozero'
+* for Python3: 'sudo apt install python3-gpiozero'
 
-Documentation
+Documentation:
 https://www.raspberrypi.org/documentation/usage/gpio/python/README.md
 https://gpiozero.readthedocs.io/
 
