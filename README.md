@@ -53,3 +53,9 @@ Control service (from Terminal):
 * Stop service: `node-red-stop`
 * Restart service: `node-red-restart`
 * Show logs: `node-red-log`
+
+Documentation:
+* https://nodered.org/docs/getting-started/raspberrypi
+* https://flows.nodered.org/node/node-red-dashboard
+* https://flows.nodered.org/node/node-red-node-pi-neopixel
+* https://flows.nodered.org/node/node-red-contrib-cpu
