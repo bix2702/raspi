@@ -42,7 +42,7 @@ Prerequisites:
     * Node-RED packet manager: `sudo apt install npm`
 * Install LED-Node:
   * Install Adafruit driver in Terminal: `curl -sS get.pimoroni.com/unicornhat | bash`
-  * Install LED-Node in Terminal: `npm install node-red-node-pi-neopixel` or via "Manage Palette" ("Palette verwalten")
+  * Install LED-Node in Terminal: `npm install node-red-node-pi-neopixel` or in NODE-Red via "Manage Palette" ("Palette verwalten")
 
 Control service by Terminal:
 * Start service by boot: `sudo systemctl enable nodered.service`
