@@ -6,20 +6,20 @@ Python Script
 The file "script.py" contains the test script for the Raspberry Pi workshop
 
 Prerequisites:
-Install gpiozero 
-* with Python pip installer: 
-  * for Python 2: `sudo pip install gpiozero`
-  * for Python 3: `sudo pip3 install gpiozero`
-* with Debian package manager (alternative): 
-  * for Python 2: `sudo apt install python-gpiozero`
-  * for Python 3: `sudo apt install python3-gpiozero`
+* Install gpiozero 
+  * with Python pip installer: 
+    * for Python 2: `sudo pip install gpiozero`
+    * for Python 3: `sudo pip3 install gpiozero`
+  * with Debian package manager (alternative): 
+    * for Python 2: `sudo apt install python-gpiozero`
+    * for Python 3: `sudo apt install python3-gpiozero`
 
-Installation Python LED-Driver:
-* for Python 2: `sudo pip install rpi_ws281x`
-* for Python 3: `sudo pip3 install rpi_ws281x`
+* Installation Python LED-Driver:
+  * for Python 2: `sudo pip install rpi_ws281x`
+  * for Python 3: `sudo pip3 install rpi_ws281x`
 
-Installation Benchmark-Tool:
-* `sudo apt install sysbench`
+* Installation Benchmark-Tool:
+  * `sudo apt install sysbench`
 
 Documentation:
 * https://github.com/rpi-ws281x/rpi-ws281x-python
