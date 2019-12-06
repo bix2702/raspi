@@ -35,7 +35,7 @@ Node-RED Flow
 The File flow.txt contains the Test Flow for Node-RED for the Raspi Workshop
 
 Prerequisites:
-* Install NODE-Red (from  Terminal): 
+* Install NODE-Red (from Terminal): 
   * By Script (recommended): `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
   * By Debian packet manager:
     * Node-RED: `sudo apt install nodered`
@@ -45,7 +45,7 @@ Prerequisites:
   * Install LED-Node: `npm install node-red-node-pi-neopixel` 
   * *Alternative: Use "Manage Palette" ("Palette verwalten") in NODE-Red for installing LED-Node*
 
-Control service by Terminal:
+Control service (from Terminal):
 * Start service by boot: `sudo systemctl enable nodered.service`
 * Start service: `node-red-start`
 * Stop service: `node-red-stop`
