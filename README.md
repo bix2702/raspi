@@ -36,7 +36,8 @@ The File flow.txt contains the Test Flow for Node-RED for the Raspi Workshop
 
 Prerequisites:
 * Install NODE-Red (from Terminal): 
-  * By Script (recommended): `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
+  * By Script (recommended): 
+    * `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
   * By Debian packet manager:
     * Node-RED: `sudo apt install nodered`
     * Node-RED packet manager: `sudo apt install npm`
