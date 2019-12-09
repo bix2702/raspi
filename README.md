@@ -6,6 +6,9 @@ Python Script
 The file `script.py` contains the test script for the Raspberry Pi workshop
 
 **Prerequisites:**
+* Install Mu-Editor:
+  * sudo apt install mu-editor
+  * *Alternative: Preferences Menu --> Recommended Software --> Mu*
 * Install gpiozero 
   * with Python pip installer: 
     * for Python 2: `sudo pip install gpiozero`
