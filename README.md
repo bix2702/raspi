@@ -44,8 +44,8 @@ The File flow.txt contains the Test Flow for Node-RED for the Raspi Workshop
 * Recommended additional Add-ons & Nodes (needed for example flow):
   * Dashboard: `npm install node-red-dashboard`
   * CPU-Usage: `npm install node-red-contrib-cpu` (needed for example flow)
-  * Install Adafruit package: `curl -sS get.pimoroni.com/unicornhat | bash`
-  * Install LED-Node: `npm install node-red-node-pi-neopixel` 
+  * Adafruit package (needed for Neopixel-Node): `curl -sS get.pimoroni.com/unicornhat | bash`
+  * Neopixel-Node: `npm install node-red-node-pi-neopixel` 
   * *Alternative: Use "Manage Palette" ("Palette verwalten") in NODE-Red for installing Nodes*
 
 Control service (from Terminal):
