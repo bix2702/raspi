@@ -40,7 +40,7 @@ Prerequisites:
     * `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
   * By Debian packet manager:
     * Node-RED: `sudo apt install nodered`
-    * Node-RED packet manager: `sudo apt install npm`
+    * node.js packet manager: `sudo apt install npm`
 * Recommended additional Add-ons & Nodes (needed for example flow):
   * Dashboard: `npm install node-red-dashboard`
   * CPU-Usage: `npm install node-red-contrib-cpu` (needed for example flow)
