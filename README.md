@@ -5,7 +5,7 @@ Python Script
 
 The file "script.py" contains the test script for the Raspberry Pi workshop
 
-Prerequisites:
+**Prerequisites:**
 * Install gpiozero 
   * with Python pip installer: 
     * for Python 2: `sudo pip install gpiozero`
@@ -34,7 +34,7 @@ Node-RED Flow
 
 The File flow.txt contains the Test Flow for Node-RED for the Raspi Workshop
 
-Prerequisites:
+**Prerequisites:**
 * Install NODE-Red (from Terminal): 
   * By Script (recommended): 
     * `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
