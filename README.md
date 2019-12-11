@@ -6,6 +6,9 @@ Python Script
 The file `script.py` contains the test script for the Raspberry Pi workshop
 
 **Prerequisites:**
+* Wiring:
+https://cdn-learn.adafruit.com/assets/assets/000/063/929/original/led_strips_raspi_NeoPixel_bb.jpg?1539981142
+
 * Install Mu-Editor:
   * `sudo apt install mu-editor`
   * *Alternative: Preferences Menu --> Recommended Software --> Mu*
