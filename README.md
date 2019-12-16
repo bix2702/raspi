@@ -68,7 +68,7 @@ The File `flow.txt` contains the Test Flow for Node-RED for the Raspi Workshop
       * node-red-contrib-cpu
       * node-red-node-pi-neopixel
     * and install it.
-    * Attention: `curl -sS get.pimoroni.com/unicornhat | bash` is still needed to install in terminal for proper use of WS281x-LEDs
+    * **Attention: `curl -sS get.pimoroni.com/unicornhat | bash` is still needed to install in terminal for proper use of WS281x-LEDs**
 
 * Import explampe flow ("flow.txt")
   1) Copy the content of File "flow.txt"
