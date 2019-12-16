@@ -17,7 +17,7 @@ https://cdn-learn.adafruit.com/assets/assets/000/063/929/original/led_strips_ras
   * with Python pip installer: 
     * for Python 2: `sudo pip install gpiozero`
     * for Python 3: `sudo pip3 install gpiozero`
-  * with Debian package manager (alternative): 
+  * with Debian package manager (alternative, not needed): 
     * for Python 2: `sudo apt install python-gpiozero`
     * for Python 3: `sudo apt install python3-gpiozero`
 
