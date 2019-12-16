@@ -47,19 +47,39 @@ The File `flow.txt` contains the Test Flow for Node-RED for the Raspi Workshop
   * By Debian packet manager:
     * Node-RED: `sudo apt install nodered`
     * node.js packet manager: `sudo apt install npm`
+    
+* Setup Node-RED (from Terminal):
+  * Start service by boot: `sudo systemctl enable nodered.service` <-- recommended
+  * Start service: `node-red-start`
+  * Stop service: `node-red-stop`
+  * Restart service: `node-red-restart`
+  * Show logs: `node-red-log`
+    
 * Recommended additional Add-ons & Nodes (needed for example flow):
-  * Dashboard: `npm install node-red-dashboard`
-  * CPU-Usage: `npm install node-red-contrib-cpu` (needed for example flow)
-  * Adafruit package (needed for Neopixel-Node): `curl -sS get.pimoroni.com/unicornhat | bash`
-  * Neopixel-Node: `npm install node-red-node-pi-neopixel` 
-  * *Alternative: Use "Manage Palette" ("Palette verwalten") in NODE-Red for installing Nodes*
+  * Install in Terminal:
+    * Dashboard: `npm install node-red-dashboard`
+    * CPU-Usage: `npm install node-red-contrib-cpu` (needed for example flow)
+    * Adafruit package (needed for Neopixel-Node): `curl -sS get.pimoroni.com/unicornhat | bash`
+    * Neopixel-Node: `npm install node-red-node-pi-neopixel` 
+  * Alternative: Install in Node-RED: 
+    * Use Menu (right upper edge) --> "Palette verwalten" --> "Installieren"
+    * search for:
+      * node-red-dashboard
+      * node-red-contrib-cpu
+      * node-red-node-pi-neopixel
+    * and install it.
+    * Attention: `curl -sS get.pimoroni.com/unicornhat | bash` is still needed to install in terminal for proper use of WS281x-LEDs
 
-Control service (from Terminal):
-* Start service by boot: `sudo systemctl enable nodered.service`
-* Start service: `node-red-start`
-* Stop service: `node-red-stop`
-* Restart service: `node-red-restart`
-* Show logs: `node-red-log`
+* Import explampe flow ("flow.txt")
+  1) Copy the content of File "flow.txt"
+  2) Goto Menu --> "Import" --> "Zwischenablage" 
+  3) Paste the copied code
+  4) Press button "Import"
+  
+* Use "Implementieren" ("Deploy") is the right upper corner to start the flow
+
+
+
 
 Documentation:
 * https://nodered.org/docs/getting-started/raspberrypi
