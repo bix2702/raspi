@@ -12,6 +12,7 @@ https://cdn-learn.adafruit.com/assets/assets/000/063/929/original/led_strips_ras
 * Install Mu-Editor:
   * `sudo apt install mu-editor`
   * *Alternative: Preferences Menu --> Recommended Software --> Mu*
+  * **Attention: The Mu-Editor works with Python 3, so any extensions must be installed for Python 3 (use "pip3")!**
 * Install gpiozero 
   * with Python pip installer: 
     * for Python 2: `sudo pip install gpiozero`
